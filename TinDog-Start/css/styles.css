@@ -1,0 +1,206 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: Montserrat;
+    
+}
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 18%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features */
+
+#features {
+    padding: 4rem 0;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+#features h3 {
+    font-weight: bold;
+    
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+#features p {
+    color: #8f8f8f;
+    background-color: #fff;
+}
+
+.features {
+    padding: 2.5rem 0;
+}
+
+.feature-icons {
+    color: #ef8172;
+    font-size: 2.5rem;
+    
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#carousel-button {
+    background-color: transparent;
+    border: none;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 6rem 0 10em;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    font-family: Montserrat;
+}
+
+#cta button {
+    margin: 3rem 1rem;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #fff;
+}
+
+#footer i {
+    margin: 4rem .7rem 1rem;
+
+}
+
+#footer p {
+    margin: 0 0 5rem;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
